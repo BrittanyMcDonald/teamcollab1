@@ -11,18 +11,15 @@ body, html {
   width: 150px;
   height: 200px;
   flex-direction: column;
-  top: 
-  /* right:0; */
 }
 
-#menu1, #menu2 {
+#menu1 {
   /* display: flex; */
   /* border: black 1px solid; */
+  display: flex;
   align-items: center;
   justify-content: center;
-}
-#menu1{
-  height: 20%;
+  height: 50px;
   border-bottom: black 1px solid;
 }
 #menu1_cont {
@@ -31,10 +28,17 @@ body, html {
   justify-content: center;
 }
 #menu2 {
-  height:80%;
+  height:150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .items {
-  border-bottom: black 1px solid;
-  height: 15%;
+  height: 20%;
+  align-items: center;
+  justify-content: center;
+  padding:5px;
+  max-width: 100%;
 }
