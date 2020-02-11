@@ -1,0 +1,44 @@
+body, html {
+  margin: 0;
+}
+
+#menu {
+  display: flex;
+  border: black 1px solid;
+  border-radius: 5px;
+  position: relative;
+  background-color: pink;
+  width: 150px;
+  height: 200px;
+  flex-direction: column;
+}
+
+#menu1 {
+  /* display: flex; */
+  /* border: black 1px solid; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  border-bottom: black 1px solid;
+}
+#menu1_cont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#menu2 {
+  height:150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.items {
+  height: 20%;
+  align-items: center;
+  justify-content: center;
+  padding:5px;
+  max-width: 100%;
+}
