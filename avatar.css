@@ -1,0 +1,54 @@
+#avatar_section {
+    position: absolute;
+    background-color: rgb(147, 196, 147);
+    width: 300px;
+    height: 200px;
+    display:flex;
+    border-radius: 20px;
+    box-shadow: 3px 3px 8px;
+}
+
+#avatar_photo {
+    position: relative;
+    width: 100px;
+    height:100px;
+    margin: 15px;
+}
+
+#userphoto {
+    position: relative; 
+    width:90px;
+    height:90px;
+    justify-content: flex-start;
+    border-radius: 50%;
+    box-shadow: 3px 3px 8px;
+    
+
+}
+
+#avatar_name {
+    position: relative; 
+    justify-content: flex-start;
+    display:flex;
+    margin:10px;
+}
+
+#pizza {
+    position:relative;
+    font-size: 1.5em;
+    font-style: normal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(1, 112, 185);
+    justify-content: space-between;
+}
+
+#arrow {
+    position: relative;
+    justify-content: space-between;
+}
+
+#account {
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px;
+}

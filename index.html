@@ -2,6 +2,11 @@
 <html>
     <head>
 
+        <link href="avatar.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+
+
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
         <link href="evelyn.css" rel="stylesheet" type="text/css" />
@@ -11,6 +16,7 @@
         <link rel="stylesheet" href="header.css">
 
         <link href="footer.css" rel="stylesheet" type="text/css">
+
 
 
     </head>
@@ -26,7 +32,26 @@
 
 
         <!-- AVATAR SECTION (upper left) - Person 2 -->
-        
+        <div id="avatar_section">
+            <div id="avatar_photo">
+                <img id="userphoto" src="avatar.jpg"/>
+            </div>
+
+
+            <div id="avatar_name">
+
+                <p id="pizza">PizzaLover</p>                
+                    <i id="arrow" class="material-icons" onclick="ExpandAvatar()">
+                        keyboard_arrow_down
+                        </i>
+            </div>
+
+            <div id="expandmenu">
+                <button id="account">Account Settings</button>
+            </div>
+        </div>
+
+
         <!-- AVATAR SECTION END -->
 
 
@@ -71,6 +96,10 @@
         </footer>
         
         <!-- FOOTER END -->
+
+        <script src="avatar.js"></script>
+
         <script src="evelyn.js"></script>
+
     </body>
 </html>
