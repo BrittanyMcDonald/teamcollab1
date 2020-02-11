@@ -1,0 +1,40 @@
+body, html {
+  margin: 0;
+}
+
+#menu {
+  display: flex;
+  border: black 1px solid;
+  border-radius: 5px;
+  position: relative;
+  background-color: pink;
+  width: 150px;
+  height: 200px;
+  flex-direction: column;
+  top: 
+  /* right:0; */
+}
+
+#menu1, #menu2 {
+  /* display: flex; */
+  /* border: black 1px solid; */
+  align-items: center;
+  justify-content: center;
+}
+#menu1{
+  height: 20%;
+  border-bottom: black 1px solid;
+}
+#menu1_cont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#menu2 {
+  height:80%;
+}
+
+.items {
+  border-bottom: black 1px solid;
+  height: 15%;
+}
