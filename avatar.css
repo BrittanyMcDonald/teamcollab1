@@ -29,13 +29,22 @@
 #avatar_name {
     position: relative; 
     justify-content: flex-start;
+    display:flex;
+    margin:10px;
 }
 
 #pizza {
+    position:relative;
     font-size: 1.5em;
     font-style: normal;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: rgb(1, 112, 185);
+    justify-content: space-between;
+}
+
+#arrow {
+    position: relative;
+    justify-content: space-between;
 }
 
 #account {

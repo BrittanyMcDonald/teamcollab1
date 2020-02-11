@@ -2,6 +2,8 @@
 <html>
     <head>
         <link href="avatar.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
     </head>
 
     <body>
@@ -18,8 +20,16 @@
                 <img id="userphoto" src="avatar.jpg"/>
             </div>
 
+
             <div id="avatar_name">
-                <p id="pizza">PizzaLover</p>
+
+                <p id="pizza">PizzaLover</p>                
+                    <i id="arrow" class="material-icons" onclick="ExpandAvatar()">
+                        keyboard_arrow_down
+                        </i>
+            </div>
+
+            <div id="expandmenu">
                 <button id="account">Account Settings</button>
             </div>
         </div>
@@ -40,6 +50,6 @@
         <!-- FOOTER - Person 4 -->
         
         <!-- FOOTER END -->
-
+        <script src="avatar.js"></script>
     </body>
 </html>

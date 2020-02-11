@@ -1,4 +1,7 @@
-var  
+var ExpandAvatar = false;
 
 
-function 
+function ExpandAvatar(){
+    document.querySelector("#expandmenu").style.display = "block";
+    ExpandAvatar = true;
+}
