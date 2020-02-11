@@ -1,0 +1,29 @@
+body, html{
+    margin:0;
+}
+#footer_bar{
+    width: 100vw;
+    height: 15vh;
+    background-color: #ADE;
+    bottom:0;
+    position: absolute;
+    
+    
+}
+#small_div{
+    display:flex;
+    position:relative;
+  
+}
+
+.items{
+    width: 100px;
+    height: 50px;
+    background-color:#ACD;
+
+   margin:10px;
+  
+   flex-grow:1;
+}
+
+
