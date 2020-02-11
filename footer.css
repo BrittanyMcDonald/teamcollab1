@@ -10,20 +10,20 @@ body, html{
     
     
 }
-.items{
-    position:relative;
-    width: 100px;
-    height: 10px;
-    background-color:#ACD;
-    left:10px;
-    top:20px;
-   
-}
 #small_div{
-   
     display:flex;
+    position:relative;
+  
 }
-#item1{
-    
+
+.items{
+    width: 100px;
+    height: 50px;
+    background-color:#ACD;
+
+   margin:10px;
+  
+   flex-grow:1;
 }
+
 
